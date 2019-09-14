@@ -8,7 +8,7 @@ def line(katz_deli)
   katz_deli.each.with_index(1) do |customer, i|
     katz_deli << " #{i}. #{customer}"
   end
-  puts katz_deli
+  puts current_line
   end 
 end
 
