@@ -8,7 +8,7 @@ end
 
 def take_a_number(katz_deli, customer)
   katz_deli.each_index(1) do |customer, i|
-    katz_deli << 
+    katz_deli << ""
   
 end
 
