@@ -15,10 +15,10 @@ end
 def take_a_number(katz_deli, customer)
   if katz_deli.empty? 
     katz_deli << customer
-  puts "Welcome #{customer}. You are number #{katz_deli.length} in line."
+  puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
  else 
    katz_deli.push customer
-   puts puts "Welcome #{customer}. You are number #{katz_deli.length} in line."
+   puts puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
  end 
 end
 
