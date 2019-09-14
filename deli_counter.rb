@@ -7,8 +7,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, customer)
+  katz_deli = "The line is currently:"
   katz_deli.each_index(1) do |customer, i|
-    katz_deli << "The line is currently: #{i}. #{customer}"
+    katz_deli << " #{i}. #{customer}"
   end
   
 end
