@@ -23,6 +23,7 @@ def take_a_number(katz_deli, customer)
 end
 
 def now_serving
-  
+  if katz_deli.empty?
+    puts "There is no body waiting to be served!"
 end
 
